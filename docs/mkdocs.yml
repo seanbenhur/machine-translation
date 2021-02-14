@@ -9,7 +9,7 @@ theme:
     # scheme: default Use this for light mode
 
 docs_dir: templates
-repo_url: https://github.com/oke-aditya/py_fresh
+repo_url: https://github.com/seanbenhur/machine-translation
 markdown_extensions:
   - codehilite
   - pymdownx.superfences:

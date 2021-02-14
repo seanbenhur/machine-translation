@@ -14,7 +14,8 @@ local machine. This is the working directory where you will make
 changes:
 
 ```bash
-$ git clone https://github.com/oke-aditya/py_fresh.git
+$ git clone repo_url: https://github.com/seanbenhur/machine-translation
+
 ```
 
 3.  Install the requirements. You may use miniconda or conda as well.
@@ -26,7 +27,7 @@ $ pip install -r requirements.txt
 ## Step 2: Stay in Sync with the original (upstream) repo
 
 1.  Set the upstream to sync with this repo. This will keep you in sync
-    with py_fresh easily.
+    with this repo easily.
 
 ```bash
 $ git remote add upstream https://github.com/oke-aditya/py_fresh.git
@@ -81,7 +82,7 @@ gh pr create -B master -b "enter body of PR here" -t "enter title"
 #### 2. Confirm PR was created
 
 You can confirm that your PR has been created by running the following
-command, from the py_fresh folder:
+command, from the machine-translation folder:
 
 ```bash
 gh pr list 
@@ -115,7 +116,7 @@ time and appear as a single commit in the repository.
 #### 1. Create a pull request git
 
 Upload your local branch to your remote GitHub repo
-(github.com/username/py_fresh)
+(github.com/username/machine-translation)
 
 ```bash
 git push
@@ -129,7 +130,7 @@ request.
 #### 2. Confirm PR was created:
 
 Ensure your pr is listed
-[here](https://github.com/oke-aditya/py_fresh/pulls)
+[here](https://github.com/seanbenhur/machine-translation/pulls)
 
 3.  Updating a PR:
 
@@ -148,9 +149,4 @@ git push origin <enter-branch-name-same-as-before>
 Maintainers and other contributors will review your pull request. Please
 participate in the discussion and make the requested changes. When your
 pull request is approved, it will be merged into the upstream
-py_fresh repo.
-
-> **note**
->
-> py_fresh repository has CI checking. It will automatically check your code
-> for build as well.
+machine-translation repo.

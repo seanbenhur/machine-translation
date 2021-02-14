@@ -1,0 +1,20 @@
+# Training hyperparameters
+num_epochs = 100
+learning_rate = 3e-4
+batch_size = 64
+patience = 10
+# Model hyperparameters
+src_vocab_size = 7855
+trg_vocab_size = 5893
+embedding_size = 512
+num_heads = 8
+num_encoder_layers = 3
+num_decoder_layers = 3
+dropout = 0.10
+max_len = 100
+forward_expansion = 4
+#file path
+model_checkpoint_path = "/content/drive/MyDrive/Models/MLT/my_checkpoint.pth.tar"
+model_file_path = "/content/drive/MyDrive/Models/MLT/experiments/state.pt"
+english_vocab_path = "/content/drive/MyDrive/Models/MLT/english_vocab.pkl"
+german_vocab_path = "/content/drive/MyDrive/Models/MLT/german_vocab.pkl"
